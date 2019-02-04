@@ -1,12 +1,12 @@
-a=int(raw_input())
+a=int(input())
 temp=a
 x=0
 while(temp!=0):
 	x=x*10+int(temp%10)
 	temp=int(temp/10)
 if(x==a):
-	print("palindrome")
+	print("yes")
 else:
-	print("not a palindrome")
+	print("no")
 
 
